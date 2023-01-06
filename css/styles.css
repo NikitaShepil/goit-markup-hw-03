@@ -1,0 +1,241 @@
+:root {
+--primary-text-color: rgba(67, 68, 85, 1);
+--title-text-color: rgba(46, 47, 66, 1);
+--accent-color: rgba(0, 0, 0, 0.15);
+--seccondary-logo-color: rgba(77, 90, 229, 1);
+--text-color: rgba(255, 255, 255, 1);
+--secondary-bgc: rgba(244, 244, 253, 1);
+--fotter-text: rgba(231, 233, 252, 1);
+    
+
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto',sans-serif;
+}
+li{
+    list-style: none;
+}
+
+
+/*Хедер */
+
+.logo-title {
+    font-family: 'Raleway';
+    color: var(--seccondary-logo-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+
+}
+ .logo-title-secondary{
+    
+    color: var(--title-text-color);
+    
+   
+    
+ }
+
+ .navigate-item{color: var(--title-text-color);
+   
+    text-decoration: none;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+ }
+
+ .navigate-item:hover,
+ .navigate-item:focus{
+   color: var(--seccondary-logo-color);
+ }
+ .head-link{
+   font-style: normal;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+ }
+ .head-link:hover,
+ .head-link:focus{
+   color: var(--seccondary-logo-color);
+ }
+
+ /* Герой */
+
+ .hero{
+    background-color: var(--title-text-color);
+
+ }
+ 
+ .hero-title{
+    color: var(--text-color);
+    
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+
+ }
+
+ .hero-button{
+    background-color:var(--seccondary-logo-color);
+    color: var(--text-color);
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+
+ }
+
+ /* Вторая секция секция */
+
+ .visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
+
+ .friend-title{
+    color: var(--title-text-color);
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+ }
+ 
+ .friend-text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.02em;
+ }
+
+ /* Третяя секция */
+
+ .act-title{
+    color: var(--title-text-color);
+    font-size: 36px;
+line-height: 40p1.11;
+text-align: center;
+letter-spacing: 0.02em;
+
+ }
+
+ /* Четверта секція */
+ .team{
+    background-color:var(--secondary-bgc) ;
+ }
+
+ .team-main-titel{
+    color: var(--title-text-color);
+    font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+
+ }
+
+ .team-titel{
+    color: var(--title-text-color);
+    font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+    
+ }
+
+ .team-text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+ }
+ /* Футер */
+
+ .fotter{
+    background-color:var(--title-text-color) ;
+ }
+ .fotter-logo{
+    font-family: 'Raleway';
+    color: var(--seccondary-logo-color);
+    text-transform: uppercase;
+    font-weight: 800;
+font-size: 18px;
+line-height: 1.16px;
+letter-spacing: 0.03em;
+text-decoration: none;
+ }
+ .fotter-logo-secondary{
+ color: var(--secondary-bgc);
+ }
+
+ .fotter-text{
+    color: var(--fotter-text);
+    font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 0.02em;
+
+ }
+
+ /*----------------- Сторінка партфоліо----------------- */
+
+ /* Навігація */
+
+ 
+
+ 
+ .portfilio-btn{
+   font-family:'Roboto',sans-serif ;
+   font-weight: 500;
+   font-size: 16px;
+line-height: 1.5;
+    color: var(--seccondary-logo-color);
+    background-color: var(--fotter-text);
+    cursor: pointer;
+
+
+ }
+ .portfilio-btn:hover,
+ .partfolio-btn:focus{
+    color:var(--text-color) ;
+    background-color: rgba(64, 75, 191, 1);
+
+ }
+
+ /* Секція партфоліо */
+
+ .item{
+    text-decoration: none;
+ }
+
+ .prtf-list-title{
+    color: var(--title-text-color);
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+
+ }
+
+ .item-text{
+    color: var(--primary-text-color);
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
+ }
+
