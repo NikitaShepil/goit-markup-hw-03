@@ -28,6 +28,7 @@ ul{
 
 }
 img{
+   width: 100%;
    display: block;
 }
 
@@ -44,6 +45,7 @@ li{
    width: 1130px;
    margin-left: auto;
    margin-right: auto;
+   padding-right: 15px;
   
    
 }
@@ -55,6 +57,8 @@ li{
 }
 
 .conteiner-header{
+   padding-right: 15px;
+   padding-left: 15px;
 
 display: flex;
    width: 1130px;
@@ -262,6 +266,8 @@ margin-right: 24px;
   
    padding-top: 120px;
    padding-bottom: 120px;
+   padding-right: 15px;
+   padding-left: 15px;
 
  }
 
@@ -373,6 +379,8 @@ padding-bottom: 100px;
 
  .portfolio-nav > .item:not(:last-child){
    margin-right: 24px;
+   padding-left: 15px;
+   padding-right: 15px;
 
  }
 
@@ -407,6 +415,17 @@ line-height: 1.5;
    width: 1130px;
    margin-left: auto;
    margin-right: auto;
+   padding-right: 15px;
+   padding-left: 15px;
+  
+ }
+
+ .conteiner-prtf{
+   width: 1130px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-right: 15px;
+   padding-left: 15px;
   
  }
 
