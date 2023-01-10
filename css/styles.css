@@ -192,8 +192,8 @@ border: none;
  /* Вторая секция секция */
 
  .friend{
-   margin-top: 120px;
-   margin-bottom: 120px;
+   padding-top: 120px;
+   padding-bottom: 120px;
  }
 
  .visually-hidden {
@@ -248,7 +248,7 @@ letter-spacing: 0.02em;
  /* Третяя секция */
 
  .act{
-   margin-bottom: 120px;
+   padding-bottom: 120px;
  }
 
  .act-title{
@@ -272,20 +272,6 @@ margin-right: 24px;
  }
 
  /* Четверта секція */
-
- .conteiner-team{
-   
-   width: 1130px;
-   margin-left: auto;
-   margin-right: auto;
-  
-   padding-top: 120px;
-   padding-bottom: 120px;
-   padding-right: 15px;
-   padding-left: 15px;
-
- }
-
 
  .team{
     background-color:var(--secondary-bgc) ;
@@ -343,13 +329,6 @@ text-align: center;
  }
  /* Футер */
 
- .conteiner-fotter{
-   width: 1130px;
-   margin-left: auto;
-   margin-right: auto;
-   
- }
-
 
  .footer{
     background-color: var(--title-text-color);
@@ -389,8 +368,8 @@ width: 264px;
  /*----------------- Сторінка партфоліо----------------- */
 
  .portfolio{
-   margin-top: 96px;
-   margin-bottom: 96px;
+   padding-top: 96px;
+   padding-bottom: 96px;
  }
 
 
